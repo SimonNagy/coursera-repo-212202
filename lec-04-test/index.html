@@ -5,28 +5,102 @@
 	<meta charset="utf-8">
 	<title>Betti szappanboltja :)</title>
 	<style>
-		h1, h2, h3 {
+
+		header li {
+			list-style: none;
+		}
+
+		a:link, a:visited {
+			text-transform: none;
+			background-color: bisque;
+			border: 1px blue;
+			color: black;
+			display: block;
+			width: 200px;
+			text-align: center;
+			margin-bottom: 1px;
+		}
+
+		a:hover, a:active {
+			background-color: red;
+			color: blueviolet;
+		}
+
+		header li:nth-child(3) {
+			font-size: xx-large;
+		}
+		
+		.highlight {
+			color: aliceblue;
+			background-color: blue;
+			width: fit-content;
+		}
+
+		.site_title {
+			color: black;
+			font-size: xx-large;
+			text-align: center;
+			font-style: italic;
+		}
+
+		section > article {
+			color: violet;
+			font-size: smaller;
+		}
+	
+		h2, h3 {
 			color: green;
 			font-size: medium;
 		}
 
 		article {
-			color: grey;
-			font-size: large;
+			color: slategrey;
+			font-size: medium;
 		}
-		
+
+		section li {
+			color: blueviolet;
+			font-size: smaller;
+		}
+
+
 	</style>
 </head>
 
 <body>
-	Tartalom
+	<div class="site_title">
+		Betti szappanboltja (a weblap)	
+	</div>
+	
+
+	<header>
+	<ul>
+		<li><a href="/">Home</a></li>
+		<li><a href="https://www.benkeerikaszappan.hu/img/97662/440102020/440102020.jpg?time=1623768857" target="_blank">Kép egy szappanról</a></li>
+		<li><a href="https://hu.wikipedia.org/wiki/Szappan" target="_blank">A szappan meghatározása</a></li>
+	</ul>
+	</header>
+
+	<section>This is a section element with a direct child.
+		<article>This is an article element inside a section element.</article>
+	</section>
+
+	<section>
+		Az oldal tartalma.
+		<ul>
+			<li>első szöveg</li>
+			<li>masodik szoveg</li>
+			<li>harmadik szoveg</li>
+		</ul>
+	</section>
+
 	<article>This is an article element.<article>
 		<div>This is a div element under an article element.<p>This is a p element inside a div element.</p></div>
-	<h1>This is h1.</h1>
+	<h1 class="highlight">Itt lészen Betti szappanboltjának legfontosabb kiemelt szövege.</h1>
 	<h2>This is h2.</h2>
 	<h3>This is h3.</h3>
 </body>
 
-<footer>This is the footer of the page.</footer>
+<footer>A szinkront készítette a mafilm audio kft. Gyártásvezető: Nagy Simon</footer>
 
 </html>
