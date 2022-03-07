@@ -2,14 +2,25 @@ body {
     background-color:aquamarine;
 }
 
+.box {
+    margin: 0px;
+    padding: 0;
+    background-color: beige;
+}
+
+.content {
+
+
+}
+
 header li {
 	list-style: none;
 	}
 
 a:link, a:visited {
 	text-transform: none;
-	background-color: bisque;
-	border: 1px blue;
+	background-color: aqua;
+	border: 1px rgb(119, 119, 211);
 	color: black;
 	display: block;
     width: 200px;
@@ -18,12 +29,8 @@ a:link, a:visited {
 	}
 
 a:hover, a:active {
-	background-color: red;
-	color: blueviolet;
-	}
-
-header li:nth-child(3) {
-	font-size: xx-large;
+	background-color:aquamarine;
+	color:blueviolet;
 	}
 		
 .highlight {
