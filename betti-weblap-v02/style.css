@@ -1,0 +1,62 @@
+body {
+    background-color:bisque;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+#p1 {
+    height: 55px;
+    width: auto;
+}
+
+#upper {
+    height: 10px;
+    width: auto;
+}
+
+.cim {
+    color: black;
+    text-align: center;
+    font-size: x-large;
+    text-shadow: 20px;
+    text-transform: uppercase;
+    text-decoration: wavy;
+    border-bottom: 550px;
+}
+
+header li {
+    list-style: none;
+}
+
+a:link, a:visited {
+    text-decoration: none;
+    font-size: larger;
+    text-transform: uppercase;
+    background-color: aquamarine;
+    border: 1px rgb(119, 119, 211);
+    color: black;
+    display:block;
+    width: 400px;
+    text-align: center;
+    margin-bottom: 1px;
+}
+
+a:hover, a:active {
+    background-color: rgb(73, 80, 77);
+    color:cadetblue;
+}
+
+#nav {
+    display: inline-block;
+    width: 20%;
+    height: 20px;
+    color:aquamarine;
+    font-style: italic;
+    text-align: center;
+}
+
+#bottom {
+    margin-top: 25px;
+}
