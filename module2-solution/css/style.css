@@ -4,7 +4,6 @@ body {
 
 * {
     box-sizing: border-box;
-    padding: 15px;
     font-family: Cambria, Cochin, Georgia, Times, 
     'Times New Roman', serif;
 }
@@ -21,29 +20,26 @@ div {
 
 .title {
     text-align: center;
+    padding: 15px;
     font-size: 175%;
     text-transform: capitalize;
-    padding-top: 15px;
-    padding-bottom: 45px;
 }
 
 p {
-    border: 0;
     color: black;
     width: 80%;
     height: fit-content;
-    margin-right: auto;
-    margin-left: auto;
     font-size: medium;
 }
 
 .row {
     width: 100%;
-    padding: 10px;
+    padding: 45px;
 }
 
 @media (min-width: 992px) {
     .col-lg-4 {
+        padding: 10px;
         height: fit-content;
         float: left;
         border: 1px solid black;
@@ -57,6 +53,7 @@ p {
 
 @media (min-width: 768px) and (max-width: 991px) {
     .col-md-6 {
+        padding: 10px;
         height: fit-content;
         float: left;
         border: 1px solid black;
@@ -70,6 +67,7 @@ p {
 
 @media (min-width: 768px) and (max-width: 991px) {
     .col-md-12 {
+        padding: 10px;
         height: fit-content;
         float: left;
         border: 1px solid black;
@@ -89,7 +87,6 @@ p {
     height: fit-content;
     border: 1px solid black;
     margin: 0;
-    padding: 1px;
     font-size: 125%;
     font-style: italic;
     text-align: center;
@@ -114,11 +111,4 @@ p {
     bottom: 10px;
     left: 10px;
     right: 10px;
-}
-
-.footer {
-    font-size: smaller;
-    text-align: left;
-    font-style: italic;
-    color: grey;
 }
